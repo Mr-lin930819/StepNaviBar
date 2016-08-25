@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.cviews.mrlin.stepnavibardemo.MainActivity">
+
+    <me.cviews.mrlin.stepnavibar.StepNavigateBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/step_view_blue"
+        android:layout_marginTop="25dp"
+        app:fillColor="@android:color/holo_blue_light"
+        app:borderColor="@android:color/holo_blue_light"
+        app:labelColor="@android:color/white"
+        app:noFillColor="@android:color/white"
+        app:pendingLabelColor="@android:color/darker_gray"
+        app:radius="8" app:stepSpace="6"/>
+
+    <me.cviews.mrlin.stepnavibar.StepNavigateBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/step_view_green"
+        android:layout_below="@id/step_view_blue"
+        android:layout_marginTop="25dp"
+        app:fillColor="@android:color/holo_green_light"
+        app:borderColor="@android:color/holo_green_light"
+        app:labelColor="@android:color/white"
+        app:noFillColor="@android:color/white"
+        app:pendingLabelColor="@android:color/darker_gray"
+        app:radius="8" app:stepSpace="6"/>
+
+    <me.cviews.mrlin.stepnavibar.StepNavigateBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/step_view_red"
+        android:layout_below="@id/step_view_green"
+        android:layout_marginTop="25dp"
+        app:fillColor="@android:color/holo_red_light"
+        app:borderColor="@android:color/holo_red_light"
+        app:labelColor="@android:color/white"
+        app:noFillColor="@android:color/white"
+        app:pendingLabelColor="@android:color/darker_gray"
+        app:radius="8" app:stepSpace="6"/>
+
+    <me.cviews.mrlin.stepnavibar.StepNavigateBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/step_view_yellow"
+        android:layout_below="@id/step_view_red"
+        android:layout_marginTop="25dp"
+        app:fillColor="@android:color/holo_orange_light"
+        app:borderColor="@android:color/holo_orange_light"
+        app:labelColor="@android:color/white"
+        app:noFillColor="@android:color/white"
+        app:pendingLabelColor="@android:color/darker_gray"
+        app:radius="8" app:stepSpace="6"/>
+
+    <me.cviews.mrlin.stepnavibar.StepNavigateBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/step_view_purple"
+        android:layout_below="@id/step_view_yellow"
+        android:layout_marginTop="25dp"
+        app:fillColor="@android:color/holo_purple"
+        app:borderColor="@android:color/holo_purple"
+        app:labelColor="@android:color/white"
+        app:noFillColor="@android:color/white"
+        app:pendingLabelColor="@android:color/darker_gray"
+        app:radius="8" app:stepSpace="6"/>
+</RelativeLayout>
