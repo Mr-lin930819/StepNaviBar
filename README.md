@@ -1,9 +1,10 @@
 # StepNaviBar
 自定义的步骤流程控件
 
-## Capture
-## 效果截图
+## Capture 效果截图
+![](https://github.com/Mr-lin930819/StepNaviBar/master/capture/port_capture.png)
 
+![](https://github.com/Mr-lin930819/StepNaviBar/master/capture/land_capture.png)
 
 ## 使用方法
 #### 1.在xml布局中添加StepNavigateBar控件
